@@ -10,3 +10,6 @@ run_benchmarks.py
 test_compression.py
 test_regression_v4.py
 validate_v4.py
+
+HANDWRITTEN_SOLUTION_GUIDE.md
+HANDWRITTEN_SOLUTION_GUIDE.pdf
