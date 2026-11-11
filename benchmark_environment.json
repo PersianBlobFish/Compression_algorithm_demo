@@ -1,0 +1,30 @@
+{
+  "utc_timestamp": "2026-11-11T09:53:03+00:00",
+  "host_platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.13.5",
+  "cpu_model": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cores": 12,
+  "dependency_versions": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1"
+  },
+  "benchmark_warmups": 1,
+  "benchmark_timed_repeats": 5,
+  "clock": "time.perf_counter()",
+  "timing_aggregation": "median wall-clock seconds",
+  "throughput_units": "MiB/s (input MiB / elapsed wall-clock sec)",
+  "corpus_manifest": "data/dataset_manifest.json",
+  "corpus_checksums": {
+    "Long runs (10 KB)": "80b6a007d760c2cd84f6026cda12ed1731e176756069f72e408b0c9e9de406ba",
+    "Skewed DNA (12 KB)": "acad6c88a5a3a04e4e7edb3043da5e17eef159a179ef3f748e0c68582eb3fe64",
+    "Python source (50 KiB)": "c05bbdd0a97dd3ca730312b296710ae1d9fadfff647ea3466e3405e56d204783",
+    "Random bytes (10 KB)": "a5b6baa96d1117989584d49e3940fdff862ee464dd796a6b837d8eb44f47109d"
+  },
+  "note": "Input bytes and packet sizes are reproducible. Speed values will vary by CPU and system load.",
+  "benchmarks_file": "benchmark_results.csv",
+  "round_trips_passed": 20,
+  "benchmark_rows": 20
+}
