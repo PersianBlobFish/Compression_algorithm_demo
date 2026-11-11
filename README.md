@@ -1,4 +1,4 @@
-# Problem 8 — Classroom Compression Demo (Standard)
+# Problem 8 — Compression Demo (Standard)
 
 This package has **four original files and 20 real compressed packets** created by the five educational codecs in the verified V4 implementation. All 20 packets were decoded and compared byte-for-byte with their originals. **These formats are custom `.fl01/.rl02/.hf03/.hc04/.lz05` binary packets, not ordinary ZIP or standard gzip/DEFLATE files.** You need `demo.py` + `compression_codecs.py` to decode them.
 
