@@ -1,9 +1,3 @@
-"""Problem 8: five educational, lossless byte codecs.
-
-Authors: student group (fill in names). No third-party dependency.
-All codecs return standalone byte packets with enough metadata to decode.
-Bit counts in Part A exclude packet headers unless stated otherwise.
-"""
 from __future__ import annotations
 
 from collections import Counter, defaultdict, deque
