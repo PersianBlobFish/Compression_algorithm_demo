@@ -41,3 +41,7 @@ Original V4 pinned benchmark inputs, unchanged: 10 KB long runs; 12 KB seeded sk
 **Interpretation:** RLE works well for long uniform runs but can expand ordinary text and random bytes. Huffman favors skewed symbol distributions. LZ77 finds repeated sequences, but the educational V5's tokenization and header overhead are not competitive on every input. Compressed sizes include header metadata and padding, so a compressed packet may be larger than its input.
 
 **Important:** The outer `.zip` archive is only a delivery bundle. The real compressor outputs are the individual packet files inside it. The benchmark speed numbers depend on this machine; input/output hashes and compressed sizes can be independently verified.
+
+## Credit
+Courtesy to my group member:
+Radit, Eduardo and Rishi
